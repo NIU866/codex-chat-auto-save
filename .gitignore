@@ -1,0 +1,24 @@
+# Local backups and personal project inventory
+/data/
+/project_inventory.json
+/.codex/
+*.jsonl
+*.jsonl.zst
+*.zip
+*.tmp
+.backup-working-*/
+
+# Python / OS / editor state
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Credentials and local environment configuration
+.env
+.env.*
+auth.json
+config.toml
